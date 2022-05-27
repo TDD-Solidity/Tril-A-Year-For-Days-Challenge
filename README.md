@@ -12,13 +12,29 @@ Remember, there is 10^18 wei in one ether!
 
 some sample test cases:
 
-0 days --> 0 ether
-1 days --> 0 ether
-0 days --> 0 ether
-0 days --> 0 ether
-0 days --> 0 ether
+0 days --> 0 wei
+
+1 days --> 2.739726e+27 wei
+
+2 days --> 5.4794521e+27 wei
+
+30 days --> 8.2191781e+28 wei
+
+100 days --> 6.9863014e+29 wei
+
+365 days --> 1e+30 wei
 
 ---
 
 
 BONUS - have the function ***payForDays*** take a string instead of an integer, and the string can be decimals values such as "100.125"
+
+bonus test cases:
+
+'1' days --> 2.739726e+27 wei
+
+'1.125' days --> 3.0821918e+27 wei
+
+'30.5' days -> 8.3561644e+28 wei
+
+'99.999999' days -> 2.739726e+29 wei
